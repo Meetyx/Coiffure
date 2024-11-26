@@ -1,0 +1,40 @@
+html * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    min-width: 100vw;
+    max-height: 10vh;
+    min-height: 10vh;
+    background: rgb(106,106,106);
+    background: radial-gradient(circle, rgb(182, 106, 106) 0%, rgb(158, 92, 92) 100%);
+    padding: 10px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    color: white;
+    width: 2.4vw;
+    height: 5vh;
+}
+header button{
+    width: 7vw;
+    height: 5vh;
+    border-radius: 15px;
+    text-decoration: none;
+    border: solid;
+    font-size: 15px;
+}
+header h1{
+    color: white;
+    font-size: 40px;
+}
+main
+main img{
+    width: 14vw;
+    border: solid;
+}
